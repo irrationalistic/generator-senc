@@ -1,0 +1,5 @@
+.sass-cache
+.test
+.tmp
+bower_components
+node_modules

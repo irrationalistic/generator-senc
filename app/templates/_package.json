@@ -1,0 +1,39 @@
+{
+  "name": "<%= packageName %>",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "~3.4",
+    "jade": "*",
+    "connect-flash": "~0.1",
+    "lodash": "~2.2",
+    "moment": "~2.4",
+    "when": "~2.5",
+    "mongoose": "~3.5"<% if(authentication){%>,
+    "passport": "~0.2",
+    "passport-local": "~0.1",
+    "bcrypt": "~0.7"<%}%>
+  },
+  "devDependencies": {
+    "matchdep": "~0.3",
+    "grunt": "~0.4",
+    "grunt-contrib-coffee": "~0.10",
+    "grunt-contrib-clean": "~0.5",
+    "grunt-newer": "~0.6",
+    "grunt-contrib-uglify": "~0.3",
+    "grunt-contrib-watch": "~0.5",
+    "grunt-contrib-copy": "~0.5",
+    "grunt-contrib-sass": "~0.7",
+    "grunt-usemin": "~2.0",
+    "load-grunt-config": "~0.7",
+    "grunt-contrib-imagemin": "~0.5",
+    "grunt-nodemon": "~0.2",
+    "grunt-preprocess": "~4.0",
+    "grunt-concurrent": "~0.4",
+    "grunt-available-tasks": "~0.4",
+    "grunt-contrib-concat": "~0.3",
+    "supertest": "~0.9",
+    "grunt-jasmine-node": "~0.1",
+    "grunt-contrib-jasmine": "~0.6",
+    "open": "~0.0"
+  }
+}
